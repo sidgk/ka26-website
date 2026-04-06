@@ -253,24 +253,24 @@ export default function HomePage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="inline-flex items-center gap-1 mb-8">
             <span className="text-6xl sm:text-8xl font-black tracking-tight">
-              <span className="text-red-700">KA</span>
-              <span className="text-gray-300 font-light">-</span>
-              <span className="text-gray-900">26</span>
+              <span style={{ color: '#FFD700' }}>&#x0C95;&#x0CC6;</span>
+              <span style={{ color: '#CC0000' }}>A</span>
+              <span className="text-gray-900">-26</span>
             </span>
           </div>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6 sm:gap-10 text-sm text-gray-500">
             <div className="flex items-center gap-2">
-              <span className="w-8 h-8 rounded-full bg-red-50 text-red-700 flex items-center justify-center text-xs font-bold">KA</span>
+              <span className="w-8 h-8 rounded-full flex items-center justify-center text-xs font-bold" style={{ backgroundColor: '#FFF8DC', color: '#DAA520' }}>&#x0C95;&#x0CC6;</span>
               <span>Roots &amp; belonging</span>
             </div>
             <div className="w-1 h-1 rounded-full bg-gray-300 hidden sm:block" />
             <div className="flex items-center gap-2">
-              <span className="w-8 h-8 rounded-full bg-gray-100 text-gray-700 flex items-center justify-center text-xs font-bold">-</span>
+              <span className="w-8 h-8 rounded-full flex items-center justify-center text-xs font-bold" style={{ backgroundColor: '#FFF0F0', color: '#CC0000' }}>A</span>
               <span>Progress &amp; accessibility</span>
             </div>
             <div className="w-1 h-1 rounded-full bg-gray-300 hidden sm:block" />
             <div className="flex items-center gap-2">
-              <span className="w-8 h-8 rounded-full bg-gray-100 text-gray-700 flex items-center justify-center text-xs font-bold">26</span>
+              <span className="w-8 h-8 rounded-full bg-gray-100 text-gray-900 flex items-center justify-center text-xs font-bold">26</span>
               <span>Regional identity</span>
             </div>
           </div>

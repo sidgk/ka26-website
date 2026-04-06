@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Disclaimer",
   description:
-    "Disclaimers for the KA-26 platform covering general, medical, food safety, marketplace, and delivery services.",
+    "Disclaimers for the ಕೆA-26 platform covering general, medical, food safety, marketplace, and delivery services.",
 };
 
 export default function DisclaimerPage() {
@@ -31,11 +31,11 @@ export default function DisclaimerPage() {
             </h2>
             <div className="mt-3 space-y-3">
               <p>
-                <strong>1.1.</strong> The information provided on the KA-26
+                <strong>1.1.</strong> The information provided on the ಕೆA-26
                 platform, including the website at ka-26.com and the consumer
                 application at ka26.shop (the &quot;Platform&quot;), is for
                 general informational purposes only. While we strive to ensure
-                accuracy, KA-26 makes no representations or warranties of any
+                accuracy, ಕೆA-26 makes no representations or warranties of any
                 kind, express or implied, about the completeness, accuracy,
                 reliability, suitability, or availability of the Platform or the
                 information, products, services, or related content contained on
@@ -44,7 +44,7 @@ export default function DisclaimerPage() {
               <p>
                 <strong>1.2.</strong> The Platform may experience downtime for
                 maintenance, updates, or due to technical issues beyond our
-                control. KA-26 does not guarantee uninterrupted or error-free
+                control. ಕೆA-26 does not guarantee uninterrupted or error-free
                 access to the Platform at all times.
               </p>
               <p>
@@ -61,7 +61,7 @@ export default function DisclaimerPage() {
             </h2>
             <div className="mt-3 space-y-3">
               <p>
-                <strong>2.1.</strong> KA-26 is{" "}
+                <strong>2.1.</strong> ಕೆA-26 is{" "}
                 <strong>
                   not a pharmacy, healthcare provider, or medical professional
                 </strong>
@@ -93,11 +93,11 @@ export default function DisclaimerPage() {
                 <strong>2.5.</strong> Prescription medicines will only be
                 dispensed by the pharmacy upon submission and verification of a
                 valid prescription issued by a registered medical practitioner.
-                KA-26 does not verify prescriptions; this responsibility lies
+                ಕೆA-26 does not verify prescriptions; this responsibility lies
                 entirely with the dispensing pharmacy.
               </p>
               <p>
-                <strong>2.6.</strong> KA-26 shall not be held liable for any
+                <strong>2.6.</strong> ಕೆA-26 shall not be held liable for any
                 adverse effects, allergic reactions, or health consequences
                 resulting from the use of any pharmaceutical products purchased
                 through the Platform.
@@ -114,13 +114,13 @@ export default function DisclaimerPage() {
               <p>
                 <strong>3.1.</strong> Restaurants and food establishments listed
                 on the Platform are independently owned and operated businesses.
-                KA-26 is not responsible for the preparation, quality, safety,
+                ಕೆA-26 is not responsible for the preparation, quality, safety,
                 or hygiene of food items sold by these establishments.
               </p>
               <p>
-                <strong>3.2.</strong> KA-26 partners with restaurants that hold
+                <strong>3.2.</strong> ಕೆA-26 partners with restaurants that hold
                 valid FSSAI (Food Safety and Standards Authority of India)
-                licences. However, KA-26 does not independently verify or
+                licences. However, ಕೆA-26 does not independently verify or
                 continuously monitor the food safety practices of individual
                 restaurants.
               </p>
@@ -132,7 +132,7 @@ export default function DisclaimerPage() {
                 before placing an order.
               </p>
               <p>
-                <strong>3.4.</strong> KA-26 shall not be held liable for any
+                <strong>3.4.</strong> ಕೆA-26 shall not be held liable for any
                 foodborne illness, allergic reactions, or health issues arising
                 from the consumption of food ordered through the Platform.
               </p>
@@ -146,7 +146,7 @@ export default function DisclaimerPage() {
             </h2>
             <div className="mt-3 space-y-3">
               <p>
-                <strong>4.1.</strong> KA-26 operates as a technology platform
+                <strong>4.1.</strong> ಕೆA-26 operates as a technology platform
                 and marketplace intermediary. We are not the seller,
                 manufacturer, importer, or distributor of any products or
                 services listed on the Platform.
@@ -158,15 +158,15 @@ export default function DisclaimerPage() {
                 products.
               </p>
               <p>
-                <strong>4.3.</strong> KA-26 does not inspect, test, warrant, or
+                <strong>4.3.</strong> ಕೆA-26 does not inspect, test, warrant, or
                 endorse any products or services listed by sellers. Any claims
                 or warranties regarding products are made by the sellers, not
-                by KA-26.
+                by ಕೆA-26.
               </p>
               <p>
                 <strong>4.4.</strong> Disputes regarding product quality,
                 descriptions, or seller conduct should be addressed with the
-                respective seller. KA-26 will provide reasonable assistance as
+                respective seller. ಕೆA-26 will provide reasonable assistance as
                 an intermediary to facilitate resolution but is not a party to
                 the transaction between the consumer and the seller.
               </p>
@@ -187,13 +187,13 @@ export default function DisclaimerPage() {
               </p>
               <p>
                 <strong>5.2.</strong> Delivery partners are independent
-                contractors and not employees of KA-26. While we take steps to
-                onboard reliable delivery partners, KA-26 is not responsible for
+                contractors and not employees of ಕೆA-26. While we take steps to
+                onboard reliable delivery partners, ಕೆA-26 is not responsible for
                 the conduct of individual delivery partners beyond the scope of
                 the Platform.
               </p>
               <p>
-                <strong>5.3.</strong> KA-26 shall not be liable for delays in
+                <strong>5.3.</strong> ಕೆA-26 shall not be liable for delays in
                 delivery caused by factors outside our reasonable control,
                 including but not limited to natural disasters, strikes,
                 government actions, or other force majeure events.
@@ -201,7 +201,7 @@ export default function DisclaimerPage() {
               <p>
                 <strong>5.4.</strong> Some sellers manage their own delivery
                 (self-delivery). In such cases, the delivery is entirely the
-                responsibility of the seller, and KA-26 acts only as the order
+                responsibility of the seller, and ಕೆA-26 acts only as the order
                 facilitation platform.
               </p>
             </div>
@@ -216,13 +216,13 @@ export default function DisclaimerPage() {
               <p>
                 <strong>6.1.</strong> The Platform may contain links to
                 third-party websites or services that are not owned or
-                controlled by KA-26. We have no control over, and assume no
+                controlled by ಕೆA-26. We have no control over, and assume no
                 responsibility for, the content, privacy policies, or practices
                 of any third-party websites or services.
               </p>
               <p>
                 <strong>6.2.</strong> The inclusion of any link does not imply
-                endorsement, approval, or recommendation by KA-26 of the linked
+                endorsement, approval, or recommendation by ಕೆA-26 of the linked
                 website or its content.
               </p>
               <p>
@@ -241,7 +241,7 @@ export default function DisclaimerPage() {
             <div className="mt-3 space-y-3">
               <p>
                 <strong>7.1.</strong> To the maximum extent permitted by
-                applicable law, KA-26 and its officers, directors, employees,
+                applicable law, ಕೆA-26 and its officers, directors, employees,
                 affiliates, and agents shall not be liable for any direct,
                 indirect, incidental, special, consequential, or punitive
                 damages, including but not limited to loss of profits, data,
@@ -270,7 +270,7 @@ export default function DisclaimerPage() {
               <p>
                 <strong>7.2.</strong> This limitation applies whether the alleged
                 liability is based on contract, tort, negligence, strict
-                liability, or any other basis, even if KA-26 has been advised of
+                liability, or any other basis, even if ಕೆA-26 has been advised of
                 the possibility of such damages.
               </p>
             </div>
@@ -282,7 +282,7 @@ export default function DisclaimerPage() {
               8. Changes to This Disclaimer
             </h2>
             <p className="mt-3">
-              KA-26 reserves the right to modify this Disclaimer at any time.
+              ಕೆA-26 reserves the right to modify this Disclaimer at any time.
               Changes will be effective upon posting to the Platform. Your
               continued use of the Platform after any modifications constitutes
               acceptance of the updated Disclaimer. We encourage you to review
@@ -301,7 +301,7 @@ export default function DisclaimerPage() {
             </p>
             <ul className="mt-3 space-y-2">
               <li>
-                <strong>Company:</strong> KA-26
+                <strong>Company:</strong> ಕೆA-26
               </li>
               <li>
                 <strong>Address:</strong> Gadag, Karnataka, India
