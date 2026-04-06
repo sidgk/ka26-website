@@ -28,9 +28,8 @@ export default function Footer() {
           {/* Brand */}
           <div className="col-span-2 md:col-span-1">
             <div className="text-2xl font-black tracking-tight mb-4">
-              <span className="text-primary">KA</span>
-              <span className="text-gray-600 font-light">-</span>
-              <span className="text-white">26</span>
+              <span className="text-primary">&#x0C95;&#x0CC6;</span>
+              <span className="text-white">A26</span>
             </div>
             <p className="text-sm text-gray-500 leading-relaxed mb-4">
               Building the digital backbone of local communities across North Karnataka.

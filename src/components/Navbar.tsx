@@ -22,8 +22,8 @@ export default function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-1.5 group">
             <span className="text-2xl font-black tracking-tight">
-              <span className="text-primary">KA</span>
-              <span className="text-gray-300 font-light">-</span>
+              <span className="text-primary">&#x0C95;&#x0CC6;</span>
+              <span className="text-gray-900">A</span>
               <span className="text-gray-900">26</span>
             </span>
           </Link>
