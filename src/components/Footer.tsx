@@ -22,9 +22,9 @@ const FOOTER_LINKS = {
 
 export default function Footer() {
   return (
-    <footer className="relative bg-[#0A0A09] text-gray-400">
+    <footer className="relative bg-[#1A1A18] text-gray-400">
       {/* Warm gradient top border */}
-      <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[#C8A951]/25 to-transparent" />
+      <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[#C8A951]/30 to-transparent" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 lg:gap-12">

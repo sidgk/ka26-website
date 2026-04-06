@@ -202,23 +202,23 @@ const FEATURES = [
 export default function FeaturesPage() {
   return (
     <>
-      {/* Hero — Dark */}
-      <section className="relative overflow-hidden bg-[#0D0D0C] grain">
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_rgba(40,30,20,0.5)_0%,_transparent_70%)]" />
-        <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-[radial-gradient(circle,_rgba(200,169,81,0.05)_0%,_transparent_60%)] -translate-y-1/2 translate-x-1/4" />
-        <div className="absolute inset-0 pattern-bg-dark" />
+      {/* Hero — Light */}
+      <section className="relative overflow-hidden bg-[#FAFAF7] grain">
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_rgba(200,169,81,0.06)_0%,_transparent_70%)]" />
+        <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-[radial-gradient(circle,_rgba(200,169,81,0.08)_0%,_transparent_60%)] -translate-y-1/2 translate-x-1/4" />
+        <div className="absolute inset-0 pattern-bg" />
 
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 sm:py-32 lg:py-40">
           <div className="max-w-4xl mx-auto text-center">
             <FadeIn>
-              <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-white/[0.08] border border-white/[0.08] rounded-full text-xs font-semibold text-gray-400 mb-8 backdrop-blur-sm">
+              <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-white/80 border border-[#E5E2DA] rounded-full text-xs font-semibold text-gray-500 mb-8">
                 <Sparkles className="w-3.5 h-3.5" />
                 Platform Features
               </div>
             </FadeIn>
 
             <FadeIn delay={0.1}>
-              <h1 className="text-4xl sm:text-5xl lg:text-7xl font-black tracking-tight text-white leading-[1.1]">
+              <h1 className="text-4xl sm:text-5xl lg:text-7xl font-black tracking-tight text-[#1A1A18] leading-[1.1]">
                 Built for how{' '}
                 <span className="gradient-text">
                   people actually live
@@ -227,7 +227,7 @@ export default function FeaturesPage() {
             </FadeIn>
 
             <FadeIn delay={0.2}>
-              <p className="mt-6 text-lg sm:text-xl text-gray-400 max-w-2xl mx-auto leading-relaxed">
+              <p className="mt-6 text-lg sm:text-xl text-gray-500 max-w-2xl mx-auto leading-relaxed">
                 Not a feature dump — a set of tools designed around daily life
                 in North Karnataka. Shop, eat, get medicines, manage health,
                 connect with your community, and more.
@@ -299,15 +299,15 @@ export default function FeaturesPage() {
         );
       })}
 
-      {/* CTA — Dark */}
-      <section className="relative py-20 sm:py-28 bg-[#0D0D0C] grain">
+      {/* CTA — Brand red */}
+      <section className="relative py-20 sm:py-28 bg-[#9B1B1B] grain">
         <div className="absolute inset-0 pattern-bg-dark" />
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <FadeIn>
             <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-white">
               Ready to get started?
             </h2>
-            <p className="mt-4 text-gray-400 text-lg max-w-2xl mx-auto leading-relaxed">
+            <p className="mt-4 text-white/75 text-lg max-w-2xl mx-auto leading-relaxed">
               Whether you want to shop, sell, deliver, or just explore what your
               community has to offer — ಕೆA-26 is ready for you.
             </p>
@@ -318,14 +318,14 @@ export default function FeaturesPage() {
                 href="https://ka26.shop"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-4 bg-[#C8A951] text-[#0D0D0C] font-semibold rounded-2xl hover:bg-[#d4b85e] transition-all hover:shadow-lg hover:shadow-[#C8A951]/20"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-4 bg-white text-[#9B1B1B] font-semibold rounded-2xl hover:bg-[#F3F2EE] transition-all hover:shadow-lg hover:shadow-black/10"
               >
                 Open ಕೆA-26
                 <ArrowRight className="w-4 h-4" />
               </a>
               <Link
                 href="/about"
-                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-4 bg-white/[0.06] text-gray-300 font-semibold rounded-2xl hover:bg-white/[0.1] transition-all border border-white/[0.1]"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-4 bg-white/15 text-white font-semibold rounded-2xl hover:bg-white/25 transition-all border border-white/20"
               >
                 Learn Our Story
               </Link>

@@ -15,7 +15,7 @@ export default function GlassCard({
 }: GlassCardProps) {
   const base = variant === 'dark'
     ? 'bg-white/[0.05] backdrop-blur-xl border border-white/[0.08] shadow-lg shadow-black/10'
-    : 'bg-white/70 backdrop-blur-xl border border-gray-200/50 shadow-sm';
+    : 'bg-white/80 backdrop-blur-xl border border-[#E5E2DA]/60 shadow-sm';
 
   const hoverClass = hover
     ? variant === 'dark'

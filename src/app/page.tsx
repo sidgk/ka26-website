@@ -105,33 +105,33 @@ const VALUES = [
 export default function HomePage() {
   return (
     <>
-      {/* Hero — Dark, warm, premium */}
-      <section className="relative overflow-hidden bg-[#0D0D0C] grain">
+      {/* Hero — Light, warm, premium */}
+      <section className="relative overflow-hidden bg-[#FAFAF7] grain">
         {/* Subtle radial gradient */}
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_rgba(40,30,20,0.5)_0%,_transparent_70%)]" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_rgba(200,169,81,0.06)_0%,_transparent_70%)]" />
         {/* Warm edge glow */}
-        <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-[radial-gradient(circle,_rgba(200,169,81,0.06)_0%,_transparent_60%)] -translate-y-1/4 translate-x-1/4" />
-        <div className="absolute bottom-0 left-0 w-[400px] h-[400px] bg-[radial-gradient(circle,_rgba(155,27,27,0.06)_0%,_transparent_60%)] translate-y-1/4 -translate-x-1/4" />
-        <div className="absolute inset-0 pattern-bg-dark" />
+        <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-[radial-gradient(circle,_rgba(200,169,81,0.08)_0%,_transparent_60%)] -translate-y-1/4 translate-x-1/4" />
+        <div className="absolute bottom-0 left-0 w-[400px] h-[400px] bg-[radial-gradient(circle,_rgba(155,27,27,0.05)_0%,_transparent_60%)] translate-y-1/4 -translate-x-1/4" />
+        <div className="absolute inset-0 pattern-bg" />
 
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 sm:py-32 lg:py-40">
           <div className="max-w-4xl mx-auto text-center">
             <FadeIn>
-              <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-white/[0.08] border border-white/[0.08] rounded-full text-xs font-semibold text-gray-400 mb-8 backdrop-blur-sm">
+              <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-white/80 border border-[#E5E2DA] rounded-full text-xs font-semibold text-gray-500 mb-8">
                 <Globe className="w-3.5 h-3.5" />
                 Serving North Karnataka
               </div>
             </FadeIn>
 
             <FadeIn delay={0.1}>
-              <h1 className="text-4xl sm:text-5xl lg:text-7xl font-black tracking-tight text-white leading-[1.1]">
+              <h1 className="text-4xl sm:text-5xl lg:text-7xl font-black tracking-tight text-[#1A1A18] leading-[1.1]">
                 Your community,{' '}
                 <span className="gradient-text">connected.</span>
               </h1>
             </FadeIn>
 
             <FadeIn delay={0.2}>
-              <p className="mt-6 text-lg sm:text-xl text-gray-400 max-w-2xl mx-auto leading-relaxed">
+              <p className="mt-6 text-lg sm:text-xl text-gray-500 max-w-2xl mx-auto leading-relaxed">
                 One platform where local stores, restaurants, pharmacies, and delivery partners
                 come together — making everyday life simpler for everyone.
               </p>
@@ -143,14 +143,14 @@ export default function HomePage() {
                   href="https://ka26.shop"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-4 bg-[#C8A951] text-[#0D0D0C] font-semibold rounded-2xl hover:bg-[#d4b85e] transition-all hover:shadow-lg hover:shadow-[#C8A951]/20 active:scale-[0.98]"
+                  className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-4 bg-[#9B1B1B] text-white font-semibold rounded-2xl hover:bg-[#7A1515] transition-all hover:shadow-lg hover:shadow-[#9B1B1B]/20 active:scale-[0.98]"
                 >
                   Get Started
                   <ArrowRight className="w-4 h-4" />
                 </a>
                 <Link
                   href="/features"
-                  className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-4 bg-white/[0.06] text-gray-300 font-semibold rounded-2xl hover:bg-white/[0.1] transition-all border border-white/[0.1] backdrop-blur-sm"
+                  className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-4 bg-white text-[#1A1A18] font-semibold rounded-2xl hover:bg-[#F3F2EE] transition-all border border-[#E5E2DA]"
                 >
                   Explore Features
                 </Link>
@@ -249,16 +249,16 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Values — Dark warm section */}
-      <section className="relative py-20 sm:py-28 bg-[#111] grain">
-        <div className="absolute inset-0 pattern-bg-dark" />
+      {/* Values — Light warm section */}
+      <section className="relative py-20 sm:py-28 bg-white">
+        <div className="absolute inset-0 pattern-bg" />
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <FadeIn>
             <div className="max-w-3xl mx-auto text-center mb-16">
-              <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-white">
+              <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-[#1A1A18]">
                 More than technology
               </h2>
-              <p className="mt-4 text-gray-400 text-lg leading-relaxed">
+              <p className="mt-4 text-gray-500 text-lg leading-relaxed">
                 Every decision we make is guided by a simple question — does this make life better
                 for people in our communities?
               </p>
@@ -268,12 +268,12 @@ export default function HomePage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 lg:gap-8 max-w-4xl mx-auto">
             {VALUES.map((v, i) => (
               <FadeIn key={v.title} delay={i * 0.1}>
-                <GlassCard variant="dark" hover className="p-6">
-                  <div className="w-10 h-10 rounded-lg bg-[#9B1B1B]/20 text-red-400 flex items-center justify-center mb-4">
+                <GlassCard variant="light" hover className="p-6">
+                  <div className="w-10 h-10 rounded-lg bg-[#9B1B1B]/10 text-[#9B1B1B] flex items-center justify-center mb-4">
                     <v.icon className="w-5 h-5" />
                   </div>
-                  <h3 className="text-lg font-bold mb-2 text-white">{v.title}</h3>
-                  <p className="text-sm text-gray-400 leading-relaxed">{v.description}</p>
+                  <h3 className="text-lg font-bold mb-2 text-[#1A1A18]">{v.title}</h3>
+                  <p className="text-sm text-gray-500 leading-relaxed">{v.description}</p>
                 </GlassCard>
               </FadeIn>
             ))}
@@ -281,39 +281,39 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Identity — Dark background for logo */}
-      <section className="relative py-20 sm:py-28 bg-[#0D0D0C] grain">
+      {/* Identity — Brand red background */}
+      <section className="relative py-20 sm:py-28 bg-[#9B1B1B] grain">
         <div className="absolute inset-0 pattern-bg-dark" />
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <FadeIn>
             <div className="inline-flex items-center gap-1 mb-8">
-              <span className="text-6xl sm:text-8xl font-black tracking-tight" style={{ textShadow: '0 0 60px rgba(200,169,81,0.15), 0 0 120px rgba(155,27,27,0.1)' }}>
+              <span className="text-6xl sm:text-8xl font-black tracking-tight" style={{ textShadow: '0 0 60px rgba(255,215,0,0.15)' }}>
                 <span style={{ color: '#FFD700' }}>&#x0C95;&#x0CC6;</span>
-                <span style={{ color: '#CC0000' }}>A</span>
+                <span className="text-white">A</span>
                 <span className="text-white">-26</span>
               </span>
             </div>
           </FadeIn>
           <FadeIn delay={0.1}>
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-6 sm:gap-10 text-sm text-gray-500">
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-6 sm:gap-10 text-sm">
               <div className="flex items-center gap-2">
-                <span className="w-8 h-8 rounded-full flex items-center justify-center text-xs font-bold bg-[#FFD700]/10 border border-[#FFD700]/20" style={{ color: '#FFD700' }}>&#x0C95;&#x0CC6;</span>
-                <span className="text-gray-400">Roots &amp; belonging</span>
+                <span className="w-8 h-8 rounded-full flex items-center justify-center text-xs font-bold bg-[#FFD700]/20 border border-[#FFD700]/30" style={{ color: '#FFD700' }}>&#x0C95;&#x0CC6;</span>
+                <span className="text-white/80">Roots &amp; belonging</span>
               </div>
-              <div className="w-1 h-1 rounded-full bg-gray-700 hidden sm:block" />
+              <div className="w-1 h-1 rounded-full bg-white/30 hidden sm:block" />
               <div className="flex items-center gap-2">
-                <span className="w-8 h-8 rounded-full flex items-center justify-center text-xs font-bold bg-[#CC0000]/10 border border-[#CC0000]/20" style={{ color: '#CC0000' }}>A</span>
-                <span className="text-gray-400">Progress &amp; accessibility</span>
+                <span className="w-8 h-8 rounded-full flex items-center justify-center text-xs font-bold bg-white/15 border border-white/20 text-white">A</span>
+                <span className="text-white/80">Progress &amp; accessibility</span>
               </div>
-              <div className="w-1 h-1 rounded-full bg-gray-700 hidden sm:block" />
+              <div className="w-1 h-1 rounded-full bg-white/30 hidden sm:block" />
               <div className="flex items-center gap-2">
-                <span className="w-8 h-8 rounded-full bg-white/[0.06] border border-white/10 text-white flex items-center justify-center text-xs font-bold">26</span>
-                <span className="text-gray-400">Regional identity</span>
+                <span className="w-8 h-8 rounded-full bg-white/15 border border-white/20 text-white flex items-center justify-center text-xs font-bold">26</span>
+                <span className="text-white/80">Regional identity</span>
               </div>
             </div>
           </FadeIn>
           <FadeIn delay={0.2}>
-            <p className="mt-8 text-gray-500 text-sm max-w-lg mx-auto">
+            <p className="mt-8 text-white/70 text-sm max-w-lg mx-auto">
               Local roots, forward thinking. A symbol of building something meaningful — right where we belong.
             </p>
           </FadeIn>
