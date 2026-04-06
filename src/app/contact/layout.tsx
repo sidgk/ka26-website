@@ -3,10 +3,10 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Contact Us',
   description:
-    'Get in touch with KA-26. Reach us via WhatsApp, email, or our contact form. We are here to help with questions, support, partnerships, and feedback.',
+    'Get in touch with ಕೆA-26. Reach us via WhatsApp, email, or our contact form. We are here to help with questions, support, partnerships, and feedback.',
   openGraph: {
-    title: 'Contact Us | KA-26',
-    description: 'Reach out to the KA-26 team for support, partnerships, or general inquiries.',
+    title: 'Contact Us | ಕೆA-26',
+    description: 'Reach out to the ಕೆA-26 team for support, partnerships, or general inquiries.',
     url: 'https://ka-26.com/contact',
   },
 };

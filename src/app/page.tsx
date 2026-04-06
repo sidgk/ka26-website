@@ -49,7 +49,7 @@ const STAKEHOLDERS = [
     icon: Users,
     title: 'For Consumers',
     description: 'Everything you need, from the stores you trust. One app to shop, eat, and manage your daily life.',
-    cta: 'Start Using KA-26',
+    cta: 'Start Using ಕೆA-26',
     href: 'https://ka26.shop',
     gradient: 'from-blue-600 to-blue-700',
   },
@@ -149,7 +149,7 @@ export default function HomePage() {
               Everything your town needs, in one place
             </h2>
             <p className="mt-4 text-gray-500 text-lg leading-relaxed">
-              From ordering groceries to finding a medicine at midnight — KA-26 brings local commerce
+              From ordering groceries to finding a medicine at midnight — ಕೆA-26 brings local commerce
               and services together so you never have to look far.
             </p>
           </div>
@@ -297,7 +297,7 @@ export default function HomePage() {
               rel="noopener noreferrer"
               className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-4 bg-red-700 text-white font-semibold rounded-2xl hover:bg-red-800 transition-all hover:shadow-lg hover:shadow-red-700/20"
             >
-              Explore KA-26
+              Explore ಕೆA-26
               <ArrowRight className="w-4 h-4" />
             </a>
             <Link

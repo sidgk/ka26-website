@@ -8,7 +8,7 @@ import {
 export const metadata: Metadata = {
   title: 'Features',
   description:
-    'Explore everything KA-26 offers — shop from local stores, order food, access pharmacy, manage health records, post community requests, discover via reels, and more.',
+    'Explore everything ಕೆA-26 offers — shop from local stores, order food, access pharmacy, manage health records, post community requests, discover via reels, and more.',
 };
 
 const FEATURES = [
@@ -280,7 +280,7 @@ export default function FeaturesPage() {
           </h2>
           <p className="mt-4 text-gray-400 text-lg max-w-2xl mx-auto leading-relaxed">
             Whether you want to shop, sell, deliver, or just explore what your
-            community has to offer — KA-26 is ready for you.
+            community has to offer — ಕೆA-26 is ready for you.
           </p>
           <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
@@ -289,7 +289,7 @@ export default function FeaturesPage() {
               rel="noopener noreferrer"
               className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-4 bg-red-700 text-white font-semibold rounded-2xl hover:bg-red-800 transition-all hover:shadow-lg hover:shadow-red-700/20"
             >
-              Open KA-26
+              Open ಕೆA-26
               <ArrowRight className="w-4 h-4" />
             </a>
             <Link

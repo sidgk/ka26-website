@@ -88,7 +88,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="mt-12 pt-8 border-t border-gray-800 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-xs text-gray-600">
-            &copy; {new Date().getFullYear()} KA-26. All rights reserved.
+            &copy; {new Date().getFullYear()} ಕೆA-26. All rights reserved.
           </p>
           <p className="text-xs text-gray-600">
             Made with purpose in North Karnataka
