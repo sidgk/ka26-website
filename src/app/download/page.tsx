@@ -27,7 +27,7 @@ export const metadata: Metadata = {
 
 const APK_URL = "/downloads/ka26-latest.apk";
 const APK_SIZE_MB = 84;
-const APK_VERSION = "v9";
+const APK_VERSION = "v12";
 
 const STEPS = [
   {
