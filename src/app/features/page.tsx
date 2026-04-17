@@ -9,7 +9,7 @@ import FadeIn from '@/components/FadeIn';
 export const metadata: Metadata = {
   title: 'Features',
   description:
-    'Explore everything ಕೆA-26 offers — shop from local stores, order food, access pharmacy, manage health records, post community requests, discover via reels, and more.',
+    'Explore everything KA26 offers — shop from local stores, order food, access pharmacy, manage health records, post community requests, discover via reels, and more.',
 };
 
 const FEATURES = [
@@ -309,7 +309,7 @@ export default function FeaturesPage() {
             </h2>
             <p className="mt-4 text-white/75 text-lg max-w-2xl mx-auto leading-relaxed">
               Whether you want to shop, sell, deliver, or just explore what your
-              community has to offer — ಕೆA-26 is ready for you.
+              community has to offer — KA26 is ready for you.
             </p>
           </FadeIn>
           <FadeIn delay={0.1}>
@@ -320,7 +320,7 @@ export default function FeaturesPage() {
                 rel="noopener noreferrer"
                 className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-4 bg-white text-[#9B1B1B] font-semibold rounded-2xl hover:bg-[#F3F2EE] transition-all hover:shadow-lg hover:shadow-black/10"
               >
-                Open ಕೆA-26
+                Open KA26
                 <ArrowRight className="w-4 h-4" />
               </a>
               <Link

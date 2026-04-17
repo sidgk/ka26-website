@@ -16,21 +16,21 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "ಕೆA-26 | Empowering Local Communities Through Technology",
-    template: "%s | ಕೆA-26",
+    default: "KA26 | Empowering Local Communities Through Technology",
+    template: "%s | KA26",
   },
   description:
-    "ಕೆA-26 is a unified digital ecosystem connecting consumers, local stores, restaurants, and delivery partners across North Karnataka. Shop, order food, access health records, and discover local businesses — all in one platform.",
+    "KA26 is a unified digital ecosystem connecting consumers, local stores, restaurants, and delivery partners across North Karnataka. Shop, order food, access health records, and discover local businesses — all in one platform.",
   keywords: [
-    "ಕೆA-26", "ka26", "local marketplace", "North Karnataka", "Gadag",
+    "KA26", "ka26", "local marketplace", "North Karnataka", "Gadag",
     "online ordering", "local stores", "food delivery", "pharmacy",
     "community platform", "digital ecosystem",
   ],
   openGraph: {
-    title: "ಕೆA-26 | Empowering Local Communities",
+    title: "KA26 | Empowering Local Communities",
     description: "A unified digital ecosystem for local communities in North Karnataka.",
     url: "https://ka-26.com",
-    siteName: "ಕೆA-26",
+    siteName: "KA26",
     locale: "en_IN",
     type: "website",
   },

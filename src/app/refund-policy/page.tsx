@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Refund & Cancellation Policy",
   description:
-    "Refund and Cancellation Policy for orders placed through the ಕೆA-26 platform.",
+    "Refund and Cancellation Policy for orders placed through the KA26 platform.",
 };
 
 export default function RefundPolicyPage() {
@@ -32,7 +32,7 @@ export default function RefundPolicyPage() {
             <p className="mt-3">
               This Refund and Cancellation Policy outlines the terms under which
               you may cancel orders and request refunds for purchases made
-              through the ಕೆA-26 platform (ka26.shop). ಕೆA-26 acts as an
+              through the KA26 platform (ka26.shop). KA26 acts as an
               intermediary connecting consumers with sellers, restaurants,
               pharmacies, and delivery partners. Refund eligibility depends on
               the type of order and the circumstances.
@@ -92,7 +92,7 @@ export default function RefundPolicyPage() {
                 problem.
               </p>
               <p>
-                <strong>3.4.</strong> ಕೆA-26 will review the complaint in
+                <strong>3.4.</strong> KA26 will review the complaint in
                 consultation with the restaurant and issue an appropriate
                 refund, replacement, or credit within 3 business days of the
                 report.
@@ -118,7 +118,7 @@ export default function RefundPolicyPage() {
                 issue.
               </p>
               <p>
-                <strong>4.3.</strong> ಕೆA-26 will coordinate with the seller to
+                <strong>4.3.</strong> KA26 will coordinate with the seller to
                 determine the appropriate resolution, which may include a full
                 refund, partial refund, replacement, or store credit.
               </p>
@@ -182,7 +182,7 @@ export default function RefundPolicyPage() {
                 within 3-7 business days.
               </p>
               <p>
-                <strong>6.3.</strong> ಕೆA-26 will notify you via the app and/or
+                <strong>6.3.</strong> KA26 will notify you via the app and/or
                 email once a refund has been initiated.
               </p>
             </div>
@@ -206,7 +206,7 @@ export default function RefundPolicyPage() {
               </p>
               <p>
                 <strong>7.3.</strong> If an order is delivered to the wrong
-                address due to a Platform or delivery partner error, ಕೆA-26 will
+                address due to a Platform or delivery partner error, KA26 will
                 arrange for re-delivery or issue a full refund.
               </p>
             </div>
@@ -220,7 +220,7 @@ export default function RefundPolicyPage() {
             <p className="mt-3">You can request a refund through:</p>
             <ul className="mt-2 list-disc space-y-2 pl-6">
               <li>
-                <strong>The ಕೆA-26 app:</strong> Navigate to your order history,
+                <strong>The KA26 app:</strong> Navigate to your order history,
                 select the order in question, and tap &quot;Report Issue&quot; or
                 &quot;Request Refund&quot;.
               </li>
@@ -290,7 +290,7 @@ export default function RefundPolicyPage() {
             </h2>
             <p className="mt-3">
               If you are not satisfied with the resolution of a refund request,
-              you may escalate the issue by contacting our support team. ಕೆA-26
+              you may escalate the issue by contacting our support team. KA26
               will make reasonable efforts to resolve disputes fairly. All
               disputes shall be subject to the exclusive jurisdiction of the
               courts in Gadag, Karnataka, India.
@@ -308,7 +308,7 @@ export default function RefundPolicyPage() {
             </p>
             <ul className="mt-3 space-y-2">
               <li>
-                <strong>Company:</strong> ಕೆA-26
+                <strong>Company:</strong> KA26
               </li>
               <li>
                 <strong>Address:</strong> Gadag, Karnataka, India

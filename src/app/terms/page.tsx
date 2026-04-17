@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Terms & Conditions",
   description:
-    "Terms and Conditions for using the ಕೆA-26 platform, marketplace, and related services.",
+    "Terms and Conditions for using the KA26 platform, marketplace, and related services.",
 };
 
 export default function TermsPage() {
@@ -30,15 +30,15 @@ export default function TermsPage() {
               1. Introduction and Acceptance
             </h2>
             <p className="mt-3">
-              Welcome to ಕೆA-26. These Terms and Conditions (&quot;Terms&quot;)
-              govern your access to and use of the ಕೆA-26 platform, including the
+              Welcome to KA26. These Terms and Conditions (&quot;Terms&quot;)
+              govern your access to and use of the KA26 platform, including the
               website at ka-26.com, the consumer application at ka26.shop, and
               any related mobile applications, APIs, or services (collectively,
               the &quot;Platform&quot;).
             </p>
             <p className="mt-3">
               By accessing or using the Platform, you agree to be bound by these
-              Terms. If you do not agree, you must not use the Platform. ಕೆA-26
+              Terms. If you do not agree, you must not use the Platform. KA26
               reserves the right to update these Terms at any time, and your
               continued use constitutes acceptance of any modifications.
             </p>
@@ -51,10 +51,10 @@ export default function TermsPage() {
             </h2>
             <ul className="mt-3 list-disc space-y-2 pl-6">
               <li>
-                <strong>&quot;ಕೆA-26&quot;</strong>,{" "}
+                <strong>&quot;KA26&quot;</strong>,{" "}
                 <strong>&quot;we&quot;</strong>,{" "}
                 <strong>&quot;us&quot;</strong>, or{" "}
-                <strong>&quot;our&quot;</strong> refers to ಕೆA-26, a company based
+                <strong>&quot;our&quot;</strong> refers to KA26, a company based
                 in Gadag, Karnataka, India, operating the Platform.
               </li>
               <li>
@@ -88,15 +88,15 @@ export default function TermsPage() {
               3. Nature of the Platform
             </h2>
             <p className="mt-3">
-              ಕೆA-26 operates as a technology-driven marketplace that connects
+              KA26 operates as a technology-driven marketplace that connects
               consumers with local sellers, restaurants, pharmacies, and delivery
-              partners. ಕೆA-26 is an intermediary platform and is not itself the
+              partners. KA26 is an intermediary platform and is not itself the
               seller, manufacturer, or provider of any goods or services listed
               on the Platform.
             </p>
             <p className="mt-3">
               All transactions are between the consumer and the respective
-              seller. ಕೆA-26 facilitates the discovery, ordering, payment, and
+              seller. KA26 facilitates the discovery, ordering, payment, and
               delivery processes but does not own, stock, prepare, or guarantee
               the quality of products or services listed by sellers.
             </p>
@@ -125,7 +125,7 @@ export default function TermsPage() {
                 supervision and with the consent of a parent or legal guardian.
               </p>
               <p>
-                <strong>4.4.</strong> ಕೆA-26 reserves the right to suspend or
+                <strong>4.4.</strong> KA26 reserves the right to suspend or
                 terminate any account that violates these Terms, engages in
                 fraudulent activity, or is otherwise deemed harmful to the
                 Platform or its users.
@@ -151,7 +151,7 @@ export default function TermsPage() {
               </p>
               <p>
                 <strong>5.2.</strong> Prices listed on the Platform are set by
-                individual sellers and may vary. ಕೆA-26 does not control product
+                individual sellers and may vary. KA26 does not control product
                 pricing and is not responsible for pricing errors by sellers.
               </p>
               <p>
@@ -170,7 +170,7 @@ export default function TermsPage() {
               </ul>
               <p>
                 <strong>5.4.</strong> All online payments are processed by
-                third-party payment processors. ಕೆA-26 does not store your
+                third-party payment processors. KA26 does not store your
                 payment credentials.
               </p>
               <p>
@@ -225,7 +225,7 @@ export default function TermsPage() {
                 consumer through the Platform.
               </p>
               <p>
-                <strong>7.5.</strong> ಕೆA-26 reserves the right to delist any
+                <strong>7.5.</strong> KA26 reserves the right to delist any
                 seller that fails to meet quality standards, receives repeated
                 complaints, or violates these Terms.
               </p>
@@ -240,7 +240,7 @@ export default function TermsPage() {
             <div className="mt-3 space-y-3">
               <p>
                 <strong>8.1.</strong> Delivery partners are independent
-                contractors, not employees of ಕೆA-26. Nothing in these Terms
+                contractors, not employees of KA26. Nothing in these Terms
                 creates an employer-employee relationship.
               </p>
               <p>
@@ -258,7 +258,7 @@ export default function TermsPage() {
                 open, or consume any items during transit.
               </p>
               <p>
-                <strong>8.5.</strong> ಕೆA-26 reserves the right to deactivate any
+                <strong>8.5.</strong> KA26 reserves the right to deactivate any
                 delivery partner account for misconduct, repeated late
                 deliveries, or violation of these Terms.
               </p>
@@ -274,7 +274,7 @@ export default function TermsPage() {
               <p>
                 <strong>9.1.</strong> Medicines and pharmaceutical products
                 listed on the Platform are sold by independently licensed
-                pharmacists and pharmacies. ಕೆA-26 does not sell, dispense, or
+                pharmacists and pharmacies. KA26 does not sell, dispense, or
                 provide medical advice regarding any pharmaceutical products.
               </p>
               <p>
@@ -283,7 +283,7 @@ export default function TermsPage() {
                 prescription issued by a registered medical practitioner.
               </p>
               <p>
-                <strong>9.3.</strong> ಕೆA-26 does not guarantee the suitability of
+                <strong>9.3.</strong> KA26 does not guarantee the suitability of
                 any medicine for your condition. Always consult a qualified
                 healthcare professional before purchasing or consuming any
                 medication.
@@ -312,21 +312,21 @@ export default function TermsPage() {
               <p>
                 <strong>10.1.</strong> All content on the Platform, including but
                 not limited to text, graphics, logos, icons, images, software,
-                and the compilation thereof, is the property of ಕೆA-26 or its
+                and the compilation thereof, is the property of KA26 or its
                 content suppliers and is protected by Indian and international
                 copyright laws.
               </p>
               <p>
-                <strong>10.2.</strong> The ಕೆA-26 name, logo, and all related
+                <strong>10.2.</strong> The KA26 name, logo, and all related
                 names, logos, product and service names, designs, and slogans are
-                trademarks of ಕೆA-26. You may not use such marks without prior
+                trademarks of KA26. You may not use such marks without prior
                 written permission.
               </p>
               <p>
                 <strong>10.3.</strong> You may not reproduce, distribute, modify,
                 create derivative works of, publicly display, or otherwise
                 exploit any content from the Platform without express written
-                consent from ಕೆA-26.
+                consent from KA26.
               </p>
             </div>
           </section>
@@ -344,7 +344,7 @@ export default function TermsPage() {
               </p>
               <p>
                 <strong>11.2.</strong> By submitting User Content, you grant
-                ಕೆA-26 a non-exclusive, royalty-free, worldwide, perpetual licence
+                KA26 a non-exclusive, royalty-free, worldwide, perpetual licence
                 to use, display, reproduce, and distribute such content on and
                 through the Platform.
               </p>
@@ -354,7 +354,7 @@ export default function TermsPage() {
                 that such content does not violate any third-party rights.
               </p>
               <p>
-                <strong>11.4.</strong> ಕೆA-26 reserves the right to remove any
+                <strong>11.4.</strong> KA26 reserves the right to remove any
                 User Content that violates these Terms, is offensive,
                 misleading, or otherwise inappropriate, without prior notice.
               </p>
@@ -427,27 +427,27 @@ export default function TermsPage() {
             <div className="mt-3 space-y-3">
               <p>
                 <strong>14.1.</strong> To the fullest extent permitted by
-                applicable law, ಕೆA-26, its officers, directors, employees, and
+                applicable law, KA26, its officers, directors, employees, and
                 agents shall not be liable for any indirect, incidental,
                 special, consequential, or punitive damages arising out of or
                 related to your use of the Platform.
               </p>
               <p>
-                <strong>14.2.</strong> ಕೆA-26 does not guarantee the quality,
+                <strong>14.2.</strong> KA26 does not guarantee the quality,
                 safety, legality, or availability of any products or services
                 listed by sellers. Any disputes regarding product quality,
                 delivery, or service must be resolved directly between the
-                consumer and the seller, with ಕೆA-26 providing reasonable
+                consumer and the seller, with KA26 providing reasonable
                 assistance as an intermediary.
               </p>
               <p>
-                <strong>14.3.</strong> ಕೆA-26 shall not be liable for any loss or
+                <strong>14.3.</strong> KA26 shall not be liable for any loss or
                 damage arising from service interruptions, technical failures,
                 or force majeure events.
               </p>
               <p>
-                <strong>14.4.</strong> In no event shall ಕೆA-26&apos;s total
-                aggregate liability exceed the amount paid by you to ಕೆA-26 in
+                <strong>14.4.</strong> In no event shall KA26&apos;s total
+                aggregate liability exceed the amount paid by you to KA26 in
                 the twelve (12) months preceding the event giving rise to the
                 claim.
               </p>
@@ -460,7 +460,7 @@ export default function TermsPage() {
               15. Indemnification
             </h2>
             <p className="mt-3">
-              You agree to indemnify, defend, and hold harmless ಕೆA-26, its
+              You agree to indemnify, defend, and hold harmless KA26, its
               affiliates, officers, directors, employees, and agents from and
               against any claims, liabilities, damages, losses, and expenses
               (including reasonable legal fees) arising out of or in any way
@@ -499,7 +499,7 @@ export default function TermsPage() {
               17. Modifications to Terms
             </h2>
             <p className="mt-3">
-              ಕೆA-26 reserves the right to modify these Terms at any time. We
+              KA26 reserves the right to modify these Terms at any time. We
               will notify users of significant changes through the Platform or
               via email. Your continued use of the Platform after such
               modifications constitutes acceptance of the updated Terms. We
@@ -532,7 +532,7 @@ export default function TermsPage() {
             </p>
             <ul className="mt-3 space-y-2">
               <li>
-                <strong>Company:</strong> ಕೆA-26
+                <strong>Company:</strong> KA26
               </li>
               <li>
                 <strong>Address:</strong> Gadag, Karnataka, India

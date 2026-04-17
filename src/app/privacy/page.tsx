@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Privacy Policy",
   description:
-    "Privacy Policy for ಕೆA-26 — how we collect, use, and protect your personal data.",
+    "Privacy Policy for KA26 — how we collect, use, and protect your personal data.",
 };
 
 export default function PrivacyPage() {
@@ -30,10 +30,10 @@ export default function PrivacyPage() {
               1. Introduction
             </h2>
             <p className="mt-3">
-              ಕೆA-26 (&quot;we&quot;, &quot;us&quot;, or &quot;our&quot;) is
+              KA26 (&quot;we&quot;, &quot;us&quot;, or &quot;our&quot;) is
               committed to protecting your privacy and personal data. This
               Privacy Policy explains how we collect, use, store, and share your
-              information when you use the ಕೆA-26 platform, including the website
+              information when you use the KA26 platform, including the website
               at ka-26.com, the consumer application at ka26.shop, and any
               related services (the &quot;Platform&quot;).
             </p>
@@ -173,7 +173,7 @@ export default function PrivacyPage() {
               <p>
                 <strong>4.3. Payment Processors:</strong> Payment information is
                 shared with our third-party payment processors to process
-                transactions securely. ಕೆA-26 does not store your payment
+                transactions securely. KA26 does not store your payment
                 credentials.
               </p>
               <p>
@@ -446,7 +446,7 @@ export default function PrivacyPage() {
             </p>
             <ul className="mt-3 space-y-2">
               <li>
-                <strong>Company:</strong> ಕೆA-26
+                <strong>Company:</strong> KA26
               </li>
               <li>
                 <strong>Address:</strong> Gadag, Karnataka, India

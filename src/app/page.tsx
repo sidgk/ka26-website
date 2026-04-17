@@ -2,7 +2,7 @@ import Link from 'next/link';
 import {
   ShoppingBag, UtensilsCrossed, Pill, Heart, MessageSquare,
   Video, Store, Truck, Users, ArrowRight, MapPin, Briefcase,
-  Shield, Zap, Globe
+  Shield, Zap, Globe, Smartphone
 } from 'lucide-react';
 import FadeIn from '@/components/FadeIn';
 import GlassCard from '@/components/GlassCard';
@@ -139,22 +139,26 @@ export default function HomePage() {
 
             <FadeIn delay={0.3}>
               <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
+                <Link
+                  href="/download"
+                  className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-4 bg-[#9B1B1B] text-white font-semibold rounded-2xl hover:bg-[#7A1515] transition-all hover:shadow-lg hover:shadow-[#9B1B1B]/20 active:scale-[0.98]"
+                >
+                  <Smartphone className="w-4 h-4" />
+                  Download Android App
+                </Link>
                 <a
                   href="https://ka26.shop"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-4 bg-[#9B1B1B] text-white font-semibold rounded-2xl hover:bg-[#7A1515] transition-all hover:shadow-lg hover:shadow-[#9B1B1B]/20 active:scale-[0.98]"
-                >
-                  Get Started
-                  <ArrowRight className="w-4 h-4" />
-                </a>
-                <Link
-                  href="/features"
                   className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-4 bg-white text-[#1A1A18] font-semibold rounded-2xl hover:bg-[#F3F2EE] transition-all border border-[#E5E2DA]"
                 >
-                  Explore Features
-                </Link>
+                  Open in Browser
+                  <ArrowRight className="w-4 h-4" />
+                </a>
               </div>
+              <p className="mt-3 text-xs text-gray-400">
+                Free · Android 7+ · Play Store coming soon
+              </p>
             </FadeIn>
           </div>
         </div>

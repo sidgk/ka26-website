@@ -10,7 +10,7 @@ import GlassCard from '@/components/GlassCard';
 export const metadata: Metadata = {
   title: 'About',
   description:
-    'Learn why ಕೆA-26 exists — building digital infrastructure for local communities in North Karnataka. Our story, vision, and the meaning behind the name.',
+    'Learn why KA26 exists — building digital infrastructure for local communities in North Karnataka. Our story, vision, and the meaning behind the name.',
 };
 
 export default function AboutPage() {
@@ -61,7 +61,7 @@ export default function AboutPage() {
                   <Lightbulb className="w-5 h-5" />
                 </div>
                 <h2 className="text-2xl sm:text-3xl font-bold text-[#1A1A18] tracking-tight">
-                  The story behind ಕೆA-26
+                  The story behind KA26
                 </h2>
               </div>
             </FadeIn>
@@ -82,7 +82,7 @@ export default function AboutPage() {
                   but because they cannot find it.
                 </p>
                 <p className="text-[#1A1A18] font-medium">
-                  ಕೆA-26 was built to fix that gap.
+                  KA26 was built to fix that gap.
                 </p>
                 <p>
                   Not by replacing what already works, but by giving local businesses
@@ -174,7 +174,7 @@ export default function AboutPage() {
                       towns like Gadag, Hubli, Dharwad, and Bagalkot are still waiting.
                     </p>
                     <p>
-                      We are not building ಕೆA-26 for North Karnataka because it is an
+                      We are not building KA26 for North Karnataka because it is an
                       underserved market. We are building it because this is home.
                       Because the people here deserve the same access to technology
                       that anyone in Bengaluru has.
@@ -267,7 +267,7 @@ export default function AboutPage() {
                   26 — Our Region
                 </h3>
                 <p className="text-sm text-white/75 leading-relaxed">
-                  ಕೆA-26 is the RTO code for Gadag district — where this
+                  KA26 is the RTO code for Gadag district — where this
                   project was born. It is a stamp of origin, a reminder
                   that this platform belongs to the region it serves.
                 </p>
