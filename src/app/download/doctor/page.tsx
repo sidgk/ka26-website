@@ -38,8 +38,8 @@ export const metadata: Metadata = {
 };
 
 const APK_URL = "/downloads/ka26-doctor-latest.apk";
-const APK_SIZE_MB = 75;
-const APK_VERSION = "v0.2";
+const APK_SIZE_MB = 100;
+const APK_VERSION = "v0.3";
 
 const STEPS = [
   {
