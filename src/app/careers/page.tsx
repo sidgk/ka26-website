@@ -54,6 +54,123 @@ function getDeptColor(dept: string) {
   return DEPT_COLORS[dept] || 'bg-gray-100 text-gray-700';
 }
 
+// Renders inline **bold** and [text](url) markdown within a single line
+function renderInline(text: string, keyPrefix: string): React.ReactNode[] {
+  const nodes: React.ReactNode[] = [];
+  // Tokenize on **bold** and [text](url) in one pass
+  const regex = /(\*\*([^*]+)\*\*)|(\[([^\]]+)\]\(([^)]+)\))/g;
+  let lastIndex = 0;
+  let match: RegExpExecArray | null;
+  let i = 0;
+  while ((match = regex.exec(text)) !== null) {
+    if (match.index > lastIndex) {
+      nodes.push(text.slice(lastIndex, match.index));
+    }
+    if (match[1]) {
+      nodes.push(<strong key={`${keyPrefix}-b-${i}`} className="font-semibold text-gray-900">{match[2]}</strong>);
+    } else if (match[3]) {
+      const href = match[5];
+      nodes.push(
+        <a key={`${keyPrefix}-l-${i}`} href={href} className="text-red-700 underline hover:text-red-800" target="_blank" rel="noopener noreferrer">
+          {match[4]}
+        </a>
+      );
+    }
+    lastIndex = regex.lastIndex;
+    i++;
+  }
+  if (lastIndex < text.length) nodes.push(text.slice(lastIndex));
+  return nodes;
+}
+
+// Lightweight markdown renderer for job descriptions
+// Supports: paragraphs (\n\n), **bold** headings on their own line, - bullet lists, 1. ordered lists, [text](url) links
+function MarkdownDescription({ text }: { text: string }) {
+  const lines = text.split('\n');
+  const blocks: React.ReactNode[] = [];
+  let i = 0;
+  let blockIdx = 0;
+
+  while (i < lines.length) {
+    const line = lines[i];
+    const trimmed = line.trim();
+
+    // Skip blank lines
+    if (!trimmed) { i++; continue; }
+
+    // Heading: a line that is entirely **...**
+    const headingMatch = trimmed.match(/^\*\*(.+)\*\*$/);
+    if (headingMatch) {
+      blocks.push(
+        <h3 key={`h-${blockIdx++}`} className="mt-6 mb-2 text-base font-semibold text-gray-900">
+          {headingMatch[1]}
+        </h3>
+      );
+      i++;
+      continue;
+    }
+
+    // Unordered list (lines starting with "- ")
+    if (trimmed.startsWith('- ')) {
+      const items: string[] = [];
+      while (i < lines.length && lines[i].trim().startsWith('- ')) {
+        items.push(lines[i].trim().slice(2));
+        i++;
+      }
+      blocks.push(
+        <ul key={`ul-${blockIdx++}`} className="my-3 space-y-1.5 pl-1">
+          {items.map((item, j) => (
+            <li key={j} className="flex items-start gap-2 text-sm text-gray-700 leading-relaxed">
+              <span className="text-red-600 mt-1.5 leading-none">&#8226;</span>
+              <span>{renderInline(item, `ul-${blockIdx}-${j}`)}</span>
+            </li>
+          ))}
+        </ul>
+      );
+      continue;
+    }
+
+    // Ordered list (lines starting with "1. ", "2. ", etc.)
+    if (/^\d+\.\s/.test(trimmed)) {
+      const items: string[] = [];
+      while (i < lines.length && /^\d+\.\s/.test(lines[i].trim())) {
+        items.push(lines[i].trim().replace(/^\d+\.\s/, ''));
+        i++;
+      }
+      blocks.push(
+        <ol key={`ol-${blockIdx++}`} className="my-3 space-y-1.5 list-decimal pl-6">
+          {items.map((item, j) => (
+            <li key={j} className="text-sm text-gray-700 leading-relaxed pl-1">
+              {renderInline(item, `ol-${blockIdx}-${j}`)}
+            </li>
+          ))}
+        </ol>
+      );
+      continue;
+    }
+
+    // Paragraph: collect consecutive non-blank, non-list, non-heading lines
+    const paraLines: string[] = [];
+    while (i < lines.length) {
+      const l = lines[i];
+      const t = l.trim();
+      if (!t) break;
+      if (t.startsWith('- ')) break;
+      if (/^\d+\.\s/.test(t)) break;
+      if (/^\*\*(.+)\*\*$/.test(t)) break;
+      paraLines.push(t);
+      i++;
+    }
+    blocks.push(
+      <p key={`p-${blockIdx++}`} className="my-3 text-sm text-gray-700 leading-relaxed">
+        {renderInline(paraLines.join(' '), `p-${blockIdx}`)}
+      </p>
+    );
+  }
+
+  return <div className="text-gray-700">{blocks}</div>;
+}
+
 export default function CareersPage() {
   const [jobs, setJobs] = useState<Job[]>([]);
   const [loading, setLoading] = useState(true);
@@ -266,16 +383,16 @@ export default function CareersPage() {
                 {expandedJob === job.id && (
                   <div className="mt-5 pt-5 border-t border-gray-100">
                     {job.description && (
-                      <p className="text-sm text-gray-600 leading-relaxed">{job.description}</p>
+                      <MarkdownDescription text={job.description} />
                     )}
                     {job.requirements && job.requirements.length > 0 && (
-                      <div className="mt-4">
-                        <p className="text-sm font-medium text-gray-700">Requirements:</p>
-                        <ul className="mt-2 space-y-1">
+                      <div className="mt-5 pt-5 border-t border-gray-100">
+                        <p className="text-sm font-semibold text-gray-900">Requirements</p>
+                        <ul className="mt-3 space-y-1.5">
                           {job.requirements.map((req, i) => (
-                            <li key={i} className="text-sm text-gray-600 flex items-start gap-2">
-                              <span className="text-red-600 mt-1">&#8226;</span>
-                              {req}
+                            <li key={i} className="text-sm text-gray-700 flex items-start gap-2 leading-relaxed">
+                              <span className="text-red-600 mt-1.5 leading-none">&#8226;</span>
+                              <span>{req}</span>
                             </li>
                           ))}
                         </ul>
